@@ -212,3 +212,330 @@ margin-right: 5px;
     height: 300px;
     object-fit: cover;
 }
+
+@media screen and (max-width:1320px){
+
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255,105,180, 0.5);
+
+    position: fixed;
+
+    top: 0px;
+
+    width:100%;
+    height: 10%;
+
+
+    cursor: pointer;
+     border-right: 2px solid;
+       border-bottom: 1px solid black;
+  }
+
+  .nav-link {
+    font-family: cursive;
+    color:black;
+
+    padding: 20px 6px 0px 6px;
+    border-right: 1px solid black;
+    font-size: 10px;
+
+}
+
+.Lotus-spa{
+  font-family:Constantia;
+  font-style: oblique;
+  line-height:2;
+
+  font-size: 12px;
+    }
+
+
+  .image1, .image2, .image3, .image4  {
+      float: left;
+      width:  100px;
+      height: 200px;
+      object-fit: cover;
+  }
+
+  iframe{
+    width:300px;
+  height:200px;
+
+
+   }
+
+
+}body {
+background: url(https://thumbs.dreamstime.com/b/concept-de-zen-en-nature-46111509.jpg) no-repeat center fixed;
+
+background-size: 100% 100%;
+margin: 0px;
+border: 0px;
+padding: 0px;
+}
+.container {
+     background: url(https://img.freepik.com/photos-gratuite/fond-sable-blanc-pierres-zen-dans-concept-art-equilibre_53876-124274.jpg?w=2000);
+     width:100% 100%;
+
+     padding: 60px;
+     border:0px;
+     font-family: sans-serif;
+     font-weight: bolder;
+     letter-spacing: 0.25px;
+     word-spacing: 0.8px;
+     line-height: 1.8;
+     margin:100px auto;
+     ;
+}
+.pink-background {
+  background-color: rgba(255,105,180, 0.5);
+  width:50% 50%;
+  margin:auto 10%;
+  text-align: center;
+  border-radius: 20px;
+  font-family: fantasy;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 70px;
+
+
+}
+
+h2 {
+  border-bottom: solid;
+  border-color: rgba(255,255,0, 0.7);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+margin-bottom: 10px;
+padding-top: 20px;
+
+}
+
+.logo {
+width:100px;
+border-radius: 30px;
+margin-bottom: 0;
+border-bottom: 0;
+padding-bottom: 0;
+
+}
+
+.massage {
+display: inline-block;
+  text-align: left;
+  padding-left: 0px;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  width:33%
+
+
+  }
+
+  .price {
+width:33%
+    margin-top: 10px;
+  margin-bottom: 5px;
+
+display: inline-block;
+    text-align: center;
+  }
+    .time {
+      margin-top: 10px;
+  margin-bottom: 5px;
+;
+display: inline-block;
+      text-align: right;
+      padding-right: 10px;
+      width:33%
+
+      }
+
+footer {
+  color:white;
+  padding-bottom: 30px;
+  display: block;
+  margin: auto;
+  width: 30% ;
+  padding-top: 30px;
+  background-color: rgba(255,105,180, 0.5);
+  border-radius: 50px;
+  font-weight: bolder;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 27px;
+}
+
+  a:hover {
+  color: rgb(0,191,255);
+}
+
+
+  a:active{
+    color: red;
+}
+.documentation{
+  background-color: white;
+  width:50% 50%;
+  border-radius: 20px;
+  margin:auto 10%;
+  padding:20px;
+  word-spacing:1.8;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255,105,180, 0.5);
+
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+
+  width:100%;
+  height: 10%;
+
+
+  cursor: pointer;
+   border-right: 2px solid;
+     border-bottom: 1px solid black;
+}
+
+.nav-link {
+  font-family: cursive;
+  color:black;
+
+  padding: 20px 6px 0px 6px;
+  border-right: 1px solid black;
+
+
+
+  }
+
+  html {
+  scroll-behavior: smooth;
+}
+.Lotus-spa{
+  font-family:Constantia;
+  font-style: oblique;
+  line-height:3;
+
+  font-size: 30px;
+
+
+
+
+}
+.logo-2 {
+width: 90px;
+margin-left: 70px;
+border-bottom: 1px solid black;
+
+
+border-radius: 20px;
+
+}
+
+.adress-info  {
+
+background:linear-gradient(
+
+  rgba(255,105,180, 1), rgba(0, 0, 0, 0.5),rgba(255,105,180, 1)
+  );
+border:3px solid pink;
+text-align: left;
+padding-left: 20px;
+color: white;
+padding-bottom: 20px;
+}
+
+
+.video-photo {
+position: relative;
+background:linear-gradient(
+
+  rgba(255,105,180, 1), rgba(0, 0, 0, 0.5),rgba(255,105,180, 1)
+  );
+border:3px solid pink;
+text-align: left;
+padding-left: 50px;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: 5px;
+margin-right: 5px;
+
+}
+
+.image1, .image2, .image3, .image4  {
+    float: left;
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1320px){
+
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255,105,180, 0.5);
+
+    position: fixed;
+
+    top: 0px;
+
+    width:100%;
+    height: 10%;
+
+
+    cursor: pointer;
+     border-right: 2px solid;
+       border-bottom: 1px solid black;
+  }
+
+  .nav-link {
+    font-family: cursive;
+    color:black;
+
+    padding: 20px 6px 0px 6px;
+    border-right: 1px solid black;
+    font-size: 10px;
+
+}
+
+.Lotus-spa{
+  font-family:Constantia;
+  font-style: oblique;
+  line-height:2;
+
+  font-size: 12px;
+    }
+
+
+  .image1, .image2, .image3, .image4  {
+      float: left;
+      width:  100px;
+      height: 200px;
+      object-fit: cover;
+  }
+
+  iframe{
+    width:300px;
+  height:200px;
+
+
+   }
+
+
+}
